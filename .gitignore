@@ -1,1 +1,7 @@
-/target
+# Generated cryptographic keys
+my_keys.json
+peer_keys.json
+
+# Rust build output
+target/
+
