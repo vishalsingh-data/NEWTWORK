@@ -9,26 +9,27 @@ It is a simple one-way message sender and receiver using terminals.
 
 <br>
 # Project Directory Structure
-
+<br>
 newtwork_prototype/
-├── Cargo.toml                # Rust project configuration and dependencies
-├── Cargo.lock                # Locked dependency versions
-├── README.md                 # Project documentation
-├── my_keys.json              # Generated public keys of current user
-├── peer_keys.json            # Public keys of peer (shared manually)
-├── src/                      # Source code directory
-│   ├── main.rs               # Entry point (CLI handling, mode selection)
-│   ├── lib.rs                # Module declarations
-│   ├── identity.rs           # Ephemeral identity & key generation
-│   ├── crypto.rs             # Encryption, decryption, signing, verification
-│   ├── packet.rs             # Packet structure definition
-│   ├── sender.rs             # Message encryption & sending logic
-│   ├── receiver.rs           # Message receiving & decryption logic
-│   └── logger.rs             # Timestamp-based logging
-├── target/                   # Build output directory (auto-generated)
-│   ├── debug/                # Debug build files
-│   ├── release/              # Release build binary
-│   └── CACHEDIR.TAG
+<br>
+├── Cargo.toml                # Rust project configuration and dependencies <br>
+├── Cargo.lock                # Locked dependency versions <br>
+├── README.md                 # Project documentation <br>
+├── my_keys.json              # Generated public keys of current user <br>
+├── peer_keys.json            # Public keys of peer (shared manually) <br>
+├── src/                      # Source code directory <br>
+│   ├── main.rs               # Entry point (CLI handling, mode selection)<br>
+│   ├── lib.rs                # Module declarations <br>
+│   ├── identity.rs           # Ephemeral identity & key generation <br>
+│   ├── crypto.rs             # Encryption, decryption, signing, verification <br>
+│   ├── packet.rs             # Packet structure definition<br>
+│   ├── sender.rs             # Message encryption & sending logic <br>
+│   ├── receiver.rs           # Message receiving & decryption logic <br>
+│   └── logger.rs             # Timestamp-based logging <br>
+├── target/                   # Build output directory (auto-generated) <br>
+│   ├── debug/                # Debug build files <br>
+│   ├── release/              # Release build binary<br>
+│   └── CACHEDIR.TAG <br>
 
 
 <br>
@@ -44,10 +45,10 @@ newtwork_prototype/
 
 ###STEPS OF USING NEWTWORK PROTOTYPE 1(ONE WAY TRANSMISSION) :
 
-###STEP 1 : OPEN 2 TERMINALS
-###STEP 2 : MAKE SURE BOTH TERMINALS ARE IN THE SAME FILE DIRECTORY i.e. cd newtwork_prototype 
-###STEP 3 : TERMINAL A --> RECEIVER
-###STEP 4 : TERMINAL B --> SENDER
+###STEP 1 : OPEN 2 TERMINALS <br>
+###STEP 2 : MAKE SURE BOTH TERMINALS ARE IN THE SAME FILE DIRECTORY i.e. cd newtwork_prototype <br>
+###STEP 3 : TERMINAL A --> RECEIVER <br>
+###STEP 4 : TERMINAL B --> SENDER <br>
 
 ###STEP 5 : IN TERMINAL A RUN ---> "./target/release/newtwork_prototype --mode receive --my-port 9000 --peer-keys peer_keys.json"  AND KEEP IT RUNNING.
 
@@ -70,7 +71,7 @@ newtwork_prototype/
 
 
 
-<br>
+
 
 
 
